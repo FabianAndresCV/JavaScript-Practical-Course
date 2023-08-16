@@ -5,28 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="./Styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
 
-    <title>Order</title>
-
-    <style>
-        :root{
-            --white: #FFFFFF;
-            --black: #000000;
-            --dark: #232830;
-            --very-light-pink: #C7C7C7;
-            --text-input-field: #F7F7F7;
-            --hospital-green: #ACD9B2;
-        }
-        
-        body{
-            font-family: 'Quicksand', sans-serif;
-        }
-    </style>
+    <title>Yard sale</title>
 </head>
 <body>
+    <nav>
+        <img src="./icons/icon_menu.svg" alt="icon_menu" class="Menu">
     
+        <div class="Navbar-Left">
+            <img src="./logos/logo_yard_sale.svg" alt="Logo" class="Logo">
+        
+            <ul>
+                <li>
+                    <a href="/">All</a>
+                </li>
+
+                <li>
+                    <a href="/">Clothes</a>
+                </li>
+
+                <li>
+                    <a href="/">Electronics</a>
+                </li>
+
+                <li>
+                    <a href="/">Furnitures</a>
+                </li>
+
+                <li>
+                    <a href="/">Toys</a>
+                </li>
+
+                <li>
+                    <a href="/">Others</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="Navbar-Right">
+            <ul>
+                <li class="Navbar-Email">inordersoftware@gmail.com</li>
+
+                <li class="Navbar-Shopping-Card">
+                    <img src="./icons/icon_shopping_cart.svg" alt="Shopping-Card">
+                
+                    <div>2</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="Desktop-Menu inactive" >
+            <ul>
+                <li>
+                    <a href="/" class="Title">My orders</a>
+                </li>
+    
+                <li>
+                    <a href="/">My account</a>
+                </li>
+    
+                <li>
+                    <a href="/">Sign out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="./Main.js"></script>
 </body>
 </html>
