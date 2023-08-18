@@ -346,6 +346,7 @@ nav{
     position: absolute;
     right: 0;
     background-color: var(--white);
+    border: solid 1px var(--very-light-pink);
 }
 
 .Product-Details-Secondary > img:nth-child(2){
