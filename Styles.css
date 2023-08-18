@@ -347,6 +347,7 @@ nav{
     right: 0;
     background-color: var(--white);
 }
+
 .Product-Details-Secondary > img:nth-child(2){
     width: 100%;
     height: 360px;
@@ -363,9 +364,8 @@ nav{
     z-index: 2;
     padding: 12px;
     border-radius: 50%;
-}
-.Product-Detail-Close-Secondary:hover{
     cursor: pointer;
+
 }
 
 .Product-Info-Secondary{
